@@ -1,5 +1,5 @@
 body {
-    background-color: gainsboro;
+    background-color: whitesmoke;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
@@ -65,7 +65,7 @@ a:active { /* selected link */
 }
 .button {
     display: inline-block;
-    background-color: #ff7f50;
+    background-color: #ff7430;
     color: #ffffff;
     font-weight: 400;
     padding: 10px;
