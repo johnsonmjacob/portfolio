@@ -8,6 +8,13 @@ body {
     color: #121212;
 }
 
+header {
+    background-color: #939193;
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 3px solid #4a4a4a;
+}
+
 h1, h2, h3, h4 {
     line-height: 1.5;
 }
@@ -43,6 +50,22 @@ p {
     line-height: 2;
     font-weight: 300;
 }
+
+.container {
+    padding: 0 15px;
+    max-width: 100%;
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.row {
+    margin: 25px 0;
+}
+
+#work.row {
+    padding-bottom: 25px;
+}
+
 
 img {
     width: 100%;
