@@ -1,3 +1,15 @@
+/*
+Colors used:
+Background color :#f9f9f9
+Header: #3c728d
+Body: #121212
+Button: #5c0c0c
+Hover: #800000
+Active: #400606
+Link: #a72b2b
+*/
+
+
 body {
     background-color: #f9f9f9
 ;
@@ -9,10 +21,35 @@ body {
 }
 
 header {
-    background-color: #939193;
-    padding: 10px;
+    background-color: #d3ced3;
+    padding: 10px 0;
+    text-align: center;
     margin: 10px;
     border-bottom: 3px solid #4a4a4a;
+}
+
+nav > ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav > ul > li {
+    display: inline-block;
+}
+
+nav > ul > li > a {
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #5c0c0c;
+    display: inline-block;
+}
+.logo {
+    max-width: 150px;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 h1, h2, h3, h4 {
@@ -24,6 +61,10 @@ h1 {
     line-height: 1.5;
     font-weight: 700;
     color: #3c728d;
+}
+
+#hero h1 {
+    text-align: center;
 }
 
 h2 {
@@ -51,6 +92,8 @@ p {
     font-weight: 300;
 }
 
+/* Layout styling */
+
 .container {
     padding: 0 15px;
     max-width: 100%;
@@ -63,7 +106,7 @@ p {
 }
 
 #work.row {
-    padding-bottom: 25px;
+    padding-bottom: 25px; border-bottom: 1px solid #4a4a4a;
 }
 
 
@@ -76,7 +119,7 @@ a {
     text-decoration: none; /* No underlining */
 }
 a:visited { /* visited link */
-    color: #ff7f50
+    color: #f9f9f9
 }
 a:hover {
     color: #800000;
@@ -88,6 +131,17 @@ a:focus {
 }
 a:active { /* selected link */
     color: #400606;
+}
+main {
+    padding-top: 20px;
+}
+
+#hero {
+    padding: 20px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
 }
 .button {
     display: inline-block;
