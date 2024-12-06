@@ -26,6 +26,14 @@ header {
     text-align: center;
     margin: 10px;
     border-bottom: 3px solid #4a4a4a;
+    /*start ------------*/
+	width: [object Object]px; 
+	height: [object Object]px; 
+	background: #F8F8F8; 
+	border: solid #BDBDBD 1px; 
+	box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.2)  ; 
+	-webkit-box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.2)  ; 
+	-moz-box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.2)  ; 
 }
 
 nav > ul {
@@ -61,6 +69,11 @@ h1 {
     line-height: 1.5;
     font-weight: 700;
     color: #3c728d;
+}
+
+
+#hero {
+    background-color: #d3ced3;
 }
 
 #hero h1 {
@@ -119,7 +132,7 @@ a {
     text-decoration: none; /* No underlining */
 }
 a:visited { /* visited link */
-    color: #f9f9f9
+    color: #400606
 }
 a:hover {
     color: #800000;
@@ -137,11 +150,17 @@ main {
 }
 
 #hero {
+    background-color: antiquewhite;
     padding: 20px;
     display: inline-block;
     width: 100%;
     text-align: center;
     margin-top: 50px;
+}
+
+#hero h1 {
+    margin: 0;
+    padding: 0.67em 0;
 }
 .button {
     display: inline-block;
@@ -156,6 +175,8 @@ main {
 .button:hover {
     opacity: 0.8;
     text-decoration: none;
+    background-color: #800000;
+    color: #f9f9f9
 }
 .button:active {
     opacity: 0.6;
