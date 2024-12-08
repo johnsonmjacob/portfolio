@@ -134,7 +134,7 @@ img {
 }
 
 a {
-    color: #5c0c0c;
+    color: #740d0d;
     text-decoration: none; /* No underlining */
 }
 a:visited { /* visited link */
@@ -156,7 +156,7 @@ main {
 }
 
 #hero {
-    background-color: antiquewhite;
+    background-color: rgb(195, 191, 186);
     padding: 20px;
     display: inline-block;
     width: 100%;
@@ -168,9 +168,20 @@ main {
     margin: 0;
     padding: 0.67em 0;
 }
+
+.social {
+    height: 60px;
+    width: auto;
+    margin: 20px;
+}
+
+.social-icons > a {
+    text-decoration: none;
+}
+
 .button {
     display: inline-block;
-    background-color: #5c0c0c;
+    background-color: #740d0d;
     color: #f9f9f9;
     font-weight: 400;
     padding: 10px;
@@ -187,6 +198,13 @@ main {
 .button:active {
     opacity: 0.6;
 }
+
+.button:visited {
+    background-color: #440202;
+    color: #f9f9f9;
+}
+
+
 .button.contact {
     background-color: transparent;
     color: #5c0c0c;
