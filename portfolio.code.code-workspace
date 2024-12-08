@@ -1,11 +1,7 @@
 {
-	"folders": [
-		{
-			"path": "."
-		},
-		{
-			"path": "../../../Desktop/portfolio-site"
-		}
-	],
-	"settings": {}
+    "folders": [
+        {
+            "path": "."
+        }
+    ]
 }
