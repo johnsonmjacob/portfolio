@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <!-- saved from url=(0080)file:///Users/jacobjohnson/Desktop/Portfolio%20Site%20Jacob%20Johnson/index.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<html lang="en">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="author" content="Jacob Johnson">
     <title>UI/UX Portfolio Site</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
 </head>
 
 <body>
-    
     <header>
-        <div></div>
-        <div>
+        <div class="container">
             <img src="img/logo.svg"alt="Jacob">
             <nav>
                 <ul>
@@ -20,27 +24,29 @@
                 </ul>
             </nav>
         </div>
-
-        <h1>Hello, my name is Jacob Johnson and I am an aspiring UI/UX designer.</h1>
-        <span></span>
-        <p>
+        <div id="hero">
+            <h1>Hello, my name is Jacob Johnson and I am an aspiring UI/UX designer.</h1>
+            <p>
            I reside in Riverside California. 
         </p>
+        </div>
     </header>
         
     <main>
-        <div>
-            <div>
+        <div id="work">
+            <div class="container">
                 <h2>
                     My Work
                 </h2>
+                <div class="row">
+                </div>
             </div>
            
-            <div><!-- open row that holds (2) columns for project -->
-                <div><!-- open first column used for image -->
+            <div class="container"> <!-- open row that holds (2) columns for project -->
+                <div class="row"><!-- open first column used for image -->
                     <picture>
-                        <source srcset="img/bookmark/bookmark_thumbnail@1x.jpg" media="(max-width:767px)">
-                        <img src="img/bookmark/bookmark_thumbnail@2x.jpg" alt="Bookmark Thumbnail image">
+                        <source srcset="img/bookmark/bm_thumbnail@1x.jpg" media="(max-width:767px)">
+                        <img src="img/bookmark/bm_thumbnail@2x.jpg" alt="Bookmark Thumbnail image">
                     </picture>
                 </div><!-- end first column -->
                 <div><!-- open second column (used for text)-->
@@ -51,18 +57,17 @@
                     <p><!-- open paragraph -->
                         Write a line or 2 mentioning skills used (optional).
                     </p><!-- end paragraph-->
-                    <a href="Read more"Read more></a><!-- button or link label-->
                 </div><!-- end second column -->
                 <nav>
-                    <a href="file:///Users/jacobjohnson/Desktop/Portfolio%20Site%20Jacob%20Johnson/index.html#">Project Link</a>
+                    <a href="bookmark.html" class="button">Read more</a>
                 </nav>
            </div><!-- end row that holds (2) columns for project-->
             <p></p>
-           <div><!-- open row that holds (2) columns for project -->
-            <div><!-- open first column used for image -->
+           <div class="container"><!-- open row that holds (2) columns for project -->
+            <div class="row"><!-- open first column used for image -->
                 <picture>
-                    <source srcset="img/chiseled/ch_thumbnail@1x.jpg" media="(max-width:767px)">
-                    <img src="img/chiseled/ch_thumbnail@2x.jpg" alt="Chiseled Thumbnail">
+                    <source srcset="img/chiseled/thumbnail@1x.jpg" media="(max-width:767px)">
+                    <img src="img/chiseled/thumbnail@2x.jpg" alt="Chiseled Thumbnail">
                 </picture>
             </div><!-- end first column -->
             <div><!-- open second column (used for text)-->
@@ -76,15 +81,15 @@
                 <a href="Read more"Read more></a><!-- button or link label-->
             </div><!-- end second column -->
             <nav>
-                <a href="file:///Users/jacobjohnson/Desktop/Portfolio%20Site%20Jacob%20Johnson/index.html#">Project Link</a>
+                <a href="#" class="button">Read more</a>
             </nav>
        </div><!-- end row that holds (2) columns for project-->
         <p></p> 
-       <div><!-- open row that holds (2) columns for project -->
-        <div><!-- open first column used for image -->
+       <div class="container"><!-- open row that holds (2) columns for project -->
+        <div class="row"><!-- open first column used for image -->
             <picture>
-                <source srcset="img/delectable/d_thumbnail@1x.jpg" media="(max-width:767px)">
-                <img src="img/delectable/d_thumbnail@2x.jpg" alt="Delectable Thumbnail">
+                <source srcset="img/delectable/thumbnail@1x.jpg" media="(max-width:767px)">
+                <img src="img/delectable/thumbnail@2x.jpg" alt="Delectable Thumbnail">
             </picture>
         </div><!-- end first column -->
         <div><!-- open second column (used for text)-->
@@ -98,18 +103,18 @@
             <a href="Read more"Read more></a><!-- button or link label-->
         </div><!-- end second column -->
         <nav>
-            <a href="file:///Users/jacobjohnson/Desktop/Portfolio%20Site%20Jacob%20Johnson/index.html#">Project Link</a>
+            <a href="#" class="button">Read More</a>
         </nav>
    </div><!-- end row that holds (2) columns for project-->
     <p></p>
-    <div><!-- open row that holds (2) columns for project -->
-    <div><!-- open first column used for image -->
+    <div class="container"><!-- open row that holds (2) columns for project -->
+    <div class="row"><!-- open first column used for image -->
         <picture>
-            <source srcset="img/bb_thumbnail@1x.jpg" media="(max-width:767px)">
-            <img src="img/bb_thumbnail@2x.jpg" alt="Boombox Thumbnail">
+            <source srcset="img/boombox/thumbnail@1x.jpg" media="(max-width:767px)">
+            <img src="img/boombox/thumbnail@2x.jpg" alt="Boombox Thumbnail">
         </picture>
     </div><!-- end first column -->
-    <div><!-- open second column (used for text)-->
+    <div class=" container"><!-- open second column (used for text)-->
         <h3>Boombox - Mobile App</h3><!-- heading for the project-->
         <p><!-- open paragraph -->
             Relive one of the most defining decades in music. 
@@ -117,26 +122,25 @@
         <p><!-- open paragraph -->
             Write a line or 2 mentioning skills used (optional).
         </p><!-- end paragraph-->
-        <a href="Read more"Read more></a><!-- button or link label-->
-    </div><!-- end second column -->
-    <nav>
-        <a href="file:///Users/jacobjohnson/Desktop/Portfolio%20Site%20Jacob%20Johnson/index.html#">Project Link</a>
-    </nav>
-</div><!-- end row that holds (2) columns for project-->
-        </div>
+        <nav>
+            <a href="#" class="button">Read More</a>
+        </nav>
+    <!-- end second column -->
+    </div><!-- end row that holds (2) columns for project-->
     </main>
         
     <footer>
-            
-        <h2>Get in Touch!</h2>
-        <p>
-            Does my work interest you? Please contact me. Call: <a href="tel:+123456789">+49</a>. Prefer sending me an email?
-        </p>
-        <div>
-            <a href="mailto:emailaddress@yahoo.com">Email me</a>
-        </div>
+        <div class="container">
+            <h2>Get in Touch!</h2>
+            <p>
+                Does my work interest you? Please contact me. Call: <a href="tel:+123456789">+49</a>. Prefer sending me an email?
+            </p>
+            <div>
+                <a href="mailto:emailaddress@yahoo.com" class="button contact">Email me</a>
+            </div>
+        </div>  
 
-        <div>
+        <div class="container">
             <!-- Social Media Layout and Placeholders-->
                 <a href="https://www.linkedin.com/in/johnsonmjacob/" target="_blank">
                         <img src="
