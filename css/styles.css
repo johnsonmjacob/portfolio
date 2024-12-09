@@ -11,8 +11,7 @@ Link: #a72b2b
 
 
 body {
-    background-color: #f9f9f9
-;
+    background-color: #f9f9f9;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
@@ -60,6 +59,13 @@ nav > ul > li > a {
 }
 .logo {
     max-width: 150px;
+}
+
+.clear::after {
+    clear: both;
+    display: table;
+    line-height: 0;
+    content: "";
 }
 
 * {
@@ -128,6 +134,11 @@ p {
     padding-bottom: 25px; border-bottom: 1px solid #4a4a4a;
 }
 
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
 img {
     width: 100%;
@@ -215,3 +226,126 @@ main {
     background-color: #f9f9f9;
     color: #a72b2b;
 }
+
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+
+    header {
+      text-align: unset;
+      padding: 20px 0 13px;
+    }
+  
+    
+    nav {
+      width: auto;
+      float: right;
+      margin-top: 4px;
+    }
+  
+    main {
+      font-size: 18px;
+    }
+  
+    .menu {
+      display: block;
+      width: 400px;
+      float: right;
+      margin-top: 20px;
+    }
+  
+    #hero span {
+      display: block;
+    }
+  
+    .col-md-4 {
+      width: 40%;
+    }
+  
+    .col-md-6 {
+      width: 60%;
+    }
+  
+    .col-md-5 {
+      width: 50%;
+    }
+  
+  
+    [class*="col-"] {
+      float: left;
+      padding: 10px;
+    }
+  
+    nav > ul > li {
+      display: inline-block;
+    }
+  
+    nav > ul {
+      margin: 1em 0;
+    }
+  
+    .navtoggle li:not(:last-child) {
+      display: inline-block;
+    }
+  
+    .navtoggle li:last-child {
+      display: none;
+    }
+    
+  
+    #skills-tools h3 { margin-top: 0;}
+  
+    #my-story h2 { margin-top: 0;}
+  }
+  
+  
+  
+  
+  /* ==============================
+  Large devices (1024px or larger)
+  ================================= */
+  @media only screen and (min-width: 1024px) {
+    header {
+      text-align: unset;
+      padding: 20px 0 13px;
+    }
+  
+    nav {
+      width: auto;
+      float: right;
+      margin-top: 4px;
+    }
+  
+    main {
+      font-size: 18px;
+    }
+  
+    .col-lg-6 {
+      width: 60%;
+    }
+  
+    .col-lg-4 {
+      width: 40%;
+    }
+  
+    .col-lg-5 {
+      width: 50%;
+    }
+  
+    [class*="col-"] {
+      float: left;
+      padding: 10px;
+    }
+  
+    nav > ul > li {
+      display: inline-block;
+    }
+  
+    .container {
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
