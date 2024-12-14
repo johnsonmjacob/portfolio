@@ -324,6 +324,12 @@ main {
     padding: 0.1em 0;
 }
 
+#project-title,
+#about-title {
+  margin-top: 20px;
+  padding: 10px;
+}
+
 #contact {
   background-color: #d3ced3;
   text-align: left;
@@ -426,9 +432,7 @@ Medium devices (640px and larger)
     #my-story h2 { margin-top: 0;}
   }
   
-  
-  
-  
+
   /* ==============================
   Large devices (1024px or larger)
   ================================= */
