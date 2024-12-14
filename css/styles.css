@@ -89,11 +89,9 @@ img {
 }
 
 .social {
-  display: block;
-  text-align: center;
-  height: 48px;
+  height: 72px;
   width: auto;
-  margin: 25px;
+  margin: 35px;
 }
 
 .social-icons a {
@@ -218,12 +216,14 @@ main {
 .container {
     padding: 0 15px;
     max-width: 100%;
-    width: 1200px;
+    width: 1300px;
     margin: 0px auto;
+    padding: 1%;
 }
 
 .row {
     margin: 25px 0;
+    padding: 20px;
 }
 
 .row::after {
@@ -303,7 +303,7 @@ main {
 
 #hero {
     background-color: rgb(195, 191, 186);
-    padding: 20px;
+    padding: 20px 0;
     display: inline-block;
     width: 100%;
     text-align: center;
@@ -320,8 +320,16 @@ main {
 }
 
 #hero h1 {
-    margin: 0;
-    padding: 0.67em 0;
+    margin: 10%;
+    padding: 0.1em 0;
+}
+
+#contact {
+  background-color: #d3ced3;
+  text-align: left;
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 #contact .copyright {
