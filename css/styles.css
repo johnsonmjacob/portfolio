@@ -78,7 +78,7 @@ img {
 }
 
 .logo {
-  max-width: 150px;
+  max-width: 100px;
 }
 
 .clear:after {
@@ -233,7 +233,7 @@ main {
 }
 
 .resume {
-  text-align: center;
+  text-align: left;
   padding-top: 20px;
 }
 
@@ -307,7 +307,7 @@ main {
     display: inline-block;
     width: 100%;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 #hero span {
@@ -320,13 +320,13 @@ main {
 }
 
 #hero h1 {
-    margin: 10%;
+    margin: 100px;
     padding: 0.1em 0;
 }
 
 #project-title,
 #about-title {
-  margin-top: 20px;
+  margin-top: 50px;
   padding: 10px;
 }
 
