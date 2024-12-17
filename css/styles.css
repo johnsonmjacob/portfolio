@@ -61,6 +61,7 @@ h3 {
   font-size: 2.0em;
   font-weight: 500;
   color:#4a4a4a ;
+  margin-bottom: -20px\;
 }
 
 h4 {
@@ -237,6 +238,9 @@ main {
   padding-top: 20px;
 }
 
+.me {
+  margin-top: 50px;
+}
 
 #work.row {
   padding-bottom: 30px;
@@ -439,7 +443,7 @@ Medium devices (640px and larger)
   @media only screen and (min-width: 1024px) {
     header {
       text-align: unset;
-      padding: 20px 0 13px;
+      padding: 5px 0 13px;
     }
   
     nav {
@@ -466,7 +470,7 @@ Medium devices (640px and larger)
   
     [class*="col-"] {
       float: left;
-      padding: 10px;
+      padding: 20px;
     }
   
     nav > ul > li {
