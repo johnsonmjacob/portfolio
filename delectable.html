@@ -10,22 +10,32 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+    <script src="https://kit.fontawesome.com/7224bec99d.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
     
-    <header id="navigation">
-        <div class="container">
-            <div></div>
-            <img src="img/logo.svg"alt="Jacob" class="logo">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Work</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+     <header id="navigation">
+        <div class="container clear">
+            <div class="navtoggle" id="myNavtoggle">
+            <img
+                class="logo"
+                src="img/logo.svg"
+                alt="JmJ Design">
+            <div class="menu">
+                <nav>
+                    <ul class="navigation">
+                        <li><a href="index.html">Work</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+                    </ul>
+                </nav>  
+            </div>  
+            </div><!--end toggle-->
+        </div><!--end container-->
     </header>
     
     <main>
@@ -171,6 +181,9 @@
 
         <p>Copyright Jacob Johnson 2024</p>
     </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
     
 </body>
 </html>
