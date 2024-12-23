@@ -357,6 +357,12 @@ main {
   padding: 10px;
 }
 
+#about-title {
+  margin-top: 100px;
+  margin-bottom: -75px;
+  padding: 10px 10px 0 10px;
+}
+
 #contact {
   background-color: #d3ced3;
   text-align: left;
@@ -385,6 +391,10 @@ main {
 
 #skills-tools {
   padding-bottom: 30px;
+}
+
+#skills-tools h2 {
+  margin-top: -15px;
 }
 
 /* ==============================
