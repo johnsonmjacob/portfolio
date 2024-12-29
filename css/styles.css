@@ -227,7 +227,7 @@ main {
 .button.contact {
   background-color: transparent;
   color: #5c0c0c;
-  text-transform: uppercase;
+  text-transform: none;
   border: 2px solid #5c0c0c;
 }
 .button.contact:hover {
