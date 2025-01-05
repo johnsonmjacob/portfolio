@@ -1,7 +1,7 @@
 /*
 Colors used:
 Background color :#f9f9f9
-Header: #3c728d
+Header: #006191
 Body: #121212
 Button: #5c0c0c
 Hover: #800000
@@ -32,7 +32,7 @@ box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.2)  ;
 }
 
 body {
-    background-color: #ffffff;
+    background-color: #f8f8f8;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -48,13 +48,13 @@ h1, h2, h3, h4 {
 h1 {
   font-size: 2.75em;
   font-weight: 700;
-  color: #3c728d;
+  color: #006191;
 }
 
 h2 {
   font-size: 2.25em;
   font-weight: 700;
-  color: #3c728d;
+  color: #006191;
 }
 
 h3 {
@@ -349,7 +349,10 @@ main {
 #hero h1 {
     margin: 50px;
     padding: 0.1em 0;
+    color: #f8f8f8;
 }
+
+
 
 #project-title,
 #about-title {
