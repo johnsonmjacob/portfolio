@@ -14,6 +14,10 @@ Link: #a72b2b
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   background-color: #ceced3;
   padding: 10px 0;
@@ -24,7 +28,7 @@ header {
   /*start ------------*/
 width: [object Object]px; 
 height: [object Object]px; 
-background: #F8F8F8; 
+background: #006191; 
 border: solid #BDBDBD 1px; 
 box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.2)  ; 
 -webkit-box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.2)  ; 
@@ -164,30 +168,39 @@ img {
 }
 
 a {
-  color: #740d0d;
+  color: #ff0000;
   text-decoration: none;
   font-weight: 600;
 }
 
 a:hover {
-  color: #800000;
+  color: #ff0000;
   text-decoration: underline;
   font-weight: 600;
 }
 
 a:visited {
-  color: #400606;
+  color: #ff0000;
   text-decoration: underline;
   font-weight: 600;
 }
 a:active {
-  color: #400606;
+  color: #ff0000;
   text-decoration: none;
   font-weight: 600;
 }
 
 #hero {
   background-color: #d3ced3;
+  width: auto;
+    /*start ------------*/
+width: [object Object]px; 
+height: [object Object]px; 
+background: #006191; 
+border: solid #BDBDBD 1px; 
+box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.2)  ; 
+-webkit-box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.2)  ; 
+-moz-box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.2)  ; 
 }
 
 #hero h1 {
@@ -225,7 +238,7 @@ main {
 
 
 .button.contact {
-  background-color: transparent;
+  background-color: #f8f8f8;
   color: #5c0c0c;
   text-transform: none;
   border: 2px solid #5c0c0c;
@@ -238,7 +251,7 @@ main {
 /* Layout styling */
 
 .container {
-    padding: 0 15px;
+    padding: 0 50px 0 50px;
     max-width: 100%;
     width: 1300px;
     margin: 0px auto;
@@ -329,7 +342,7 @@ main {
 }
 
 #hero {
-    background-color: rgb(195, 191, 186);
+    background-color: #f8f8f8;
     padding: 20px 0;
     display: inline-block;
     width: 100%;
@@ -349,10 +362,12 @@ main {
 #hero h1 {
     margin: 50px;
     padding: 0.1em 0;
-    color: #f8f8f8;
+    color: #006191;
 }
 
-
+#hero p {
+  color: #F8F8F8;
+}
 
 #project-title,
 #about-title {
@@ -367,11 +382,19 @@ main {
 }
 
 #contact {
-  background-color: #d3ced3;
+  background-color: #006191;
   text-align: center;
   width: 100%;
   padding-top: 1%;
   padding-bottom: 1%;
+}
+
+#contact h2 {
+  color: #f8f8f8;
+}
+
+#contact p {
+  color: #ceced3;
 }
 
 #contact .copyright {
