@@ -168,7 +168,7 @@ img {
 }
 
 a {
-  color: #ff0000;
+  color: #ffffff;
   text-decoration: none;
   font-weight: 600;
 }
@@ -188,23 +188,6 @@ a:active {
   color: #ff0000;
   text-decoration: none;
   font-weight: 600;
-}
-
-#hero {
-  background-color: #d3ced3;
-  width: auto;
-    /*start ------------*/
-width: [object Object]px; 
-height: [object Object]px; 
-background: #006191; 
-border: solid #BDBDBD 1px; 
-box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.2)  ; 
--webkit-box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.2)  ; 
--moz-box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.2)  ; 
-}
-
-#hero h1 {
-  text-align: center;
 }
 
 main {
@@ -297,11 +280,11 @@ nav > ul > li > a {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 700;
-  color: #5c0c0c;
+  color: #740d0d;
 }
 
 nav > ul > li > a:visited {
-color: #5c0c0c;
+color: #fefefe;
 }
 
 .navtoggle li:not(:last-child) {
@@ -345,9 +328,17 @@ main {
     background-color: #f8f8f8;
     padding: 20px 0;
     display: inline-block;
-    width: 100%;
+    width: auto;
     text-align: center;
     margin-top: 50px;
+        /*start ------------*/
+width: [object Object]px; 
+height: [object Object]px; 
+background: #f8f8f8; 
+border: solid #BDBDBD 1px; 
+box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.2)  ; 
+-webkit-box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.2)  ; 
+-moz-box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.2)  ; 
 }
 
 #hero span {
@@ -369,24 +360,22 @@ main {
   color: #F8F8F8;
 }
 
-#project-title,
-#about-title {
+#project-title{
   margin-top: 100px;
   padding: 10px;
 }
 
 #about-title {
   margin-top: 100px;
-  margin-bottom: -75px;
-  padding: 10px 10px 0 10px;
+  padding: 10px;
 }
 
 #contact {
   background-color: #006191;
   text-align: center;
   width: 100%;
-  padding-top: 1%;
-  padding-bottom: 1%;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 #contact h2 {
