@@ -47,7 +47,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-  line-height: 1.5;
+  line-height: 1.4;
 }
 
 h1 {
@@ -88,18 +88,27 @@ img {
 
 #project-competitive-analysis img {
   max-width: 100%;
-  width: 300px;
+  width: auto;
   display: block;
   padding-top: 20px;
   padding-bottom: 20px;
   margin: 0px auto;
 }
 
-#project-overviewproblem img {
+#project-overview img {
   max-width: 100%;
   width: 300px;
   display: block;
-  padding-top: 20px;
+  padding-top: 0%;
+  padding-bottom: 20px;
+  margin: 0px auto;
+}
+
+#project-problem img {
+  max-width: 100%;
+  width: 300px;
+  display: block;
+  padding-top: 0%;
   padding-bottom: 20px;
   margin: 0px auto;
 }
@@ -200,7 +209,7 @@ a:active {
 }
 
 main {
-    padding-top: 200px;
+    margin-top: 50px;
 }
 
 .button {
@@ -251,7 +260,6 @@ main {
 
 .row {
     margin: 25px 0;
-    padding: 20px;
 }
 
 .row::after {
@@ -270,7 +278,7 @@ main {
 }
 
 #work.row {
-  padding-bottom: 30px;
+  padding-bottom: 0px;
 }
 
 nav > ul {
@@ -328,9 +336,6 @@ color: #fefefe;
   padding: 0 0 10px;
 }
 
-main {
-    padding-top: 50px;
-}
 
 #hero {
     background-color: #f8f8f8;
@@ -375,7 +380,8 @@ box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.2)  ;
 
 #about-title {
   margin-top: 120px;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 25px;
   margin-bottom: -75px;
 }
 
