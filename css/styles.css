@@ -301,6 +301,12 @@ nav > ul > li > a:visited {
 color: #fefefe;
 }
 
+nav > ul > li a:hover,
+nav > ul > li a:focus {
+  color: #BDBDBD;
+}
+
+
 .navtoggle li:not(:last-child) {
   display: none;
 }
