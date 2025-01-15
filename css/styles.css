@@ -26,8 +26,6 @@ header {
   width: 100%;
   top: 0;
   /*start ------------*/
-width: [object Object]px; 
-height: [object Object]px; 
 background: #006191; 
 border: solid #BDBDBD 1px; 
 box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.2)  ; 
@@ -38,7 +36,6 @@ box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.2)  ;
 body {
     background-color: #f8f8f8;
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 300;
     line-height: 1.6;
     font-style: normal;
@@ -66,7 +63,6 @@ h3 {
   font-size: 2.0em;
   font-weight: 500;
   color:#4a4a4a ;
-  margin-bottom: -20px\;
 }
 
 h4 {
@@ -221,6 +217,8 @@ main {
   border-radius: 3px;
   border-bottom: 2px solid #800000;
   transition: 0.2s opacity;
+  border-radius: 16px;
+  padding: 12px 20px 12px 20px;
 }
 .button:hover {
   opacity: 0.8;
@@ -345,8 +343,6 @@ color: #fefefe;
     text-align: center;
     margin-top: 50px;
         /*start ------------*/
-width: [object Object]px; 
-height: [object Object]px; 
 background: #f8f8f8; 
 border: solid #BDBDBD 1px; 
 box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.2)  ; 
