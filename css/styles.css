@@ -213,12 +213,11 @@ main {
   background-color: #740d0d;
   color: #f9f9f9;
   font-weight: 400;
-  padding: 10px;
+  padding: 12px 20px 12px 20px;
   border-radius: 3px;
   border-bottom: 2px solid #800000;
-  transition: 0.2s opacity;
+  transition: 0.4s opacity;
   border-radius: 16px;
-  padding: 12px 20px 12px 20px;
 }
 .button:hover {
   opacity: 0.8;
@@ -289,16 +288,25 @@ nav > ul > li {
   display: inline-block;
 }
 
-nav > ul > li > a {
-  padding: 0 15px;
+nav > ul > li > a,
+nav > ul > li > a:visited {
+  padding: 8px;
+  margin: 8px;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 700;
   color: #fefefe;
+  transition: 0.5s opacity;
 }
 
-nav > ul > li > a:visited {
-color: #fefefe;
+nav > ul > li > a:hover,
+nav > ul > li > a:focus {
+  text-decoration: none;
+  background-color: #f8f8f8;
+  color: #800000;
+  border: 2px solid #800000;
+  border-radius: 12px;
+  opacity: 0.9;
 }
 
 .navtoggle li:not(:last-child) {
@@ -314,8 +322,7 @@ color: #fefefe;
   right: 0;
   top: 30px;
   font-size: 30px;
-  color: #00283F;
-  padding-right: 0;
+  padding: 0;
 }
 
 .navtoggle.responsive li  {
@@ -394,7 +401,7 @@ box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.2)  ;
 }
 
 #contact p {
-  color: #ceced3;
+  color: #f8f8f8;
 }
 
 #contact .copyright {
