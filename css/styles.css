@@ -284,10 +284,6 @@ nav > ul {
   margin: 0;
 }
 
-nav > ul > li {
-  display: inline-block;
-}
-
 nav > ul > li > a {
   padding: 10px;
   margin: 10px;
@@ -295,8 +291,9 @@ nav > ul > li > a {
   text-decoration: none;
   font-weight: 700;
   color: #f8f8f8;
-  transition: 0.6s opacity;
-}
+  border-radius: 12px;
+  transition: 0.3s;
+  }
 
 nav > ul > li > a:visited {
   padding: 10px;
@@ -313,16 +310,13 @@ nav > ul > li a:active {
   background-color: #f8f8f8;
   color: #800000;
   font-weight: 700;
-  border-radius: 12px
+  border-radius: 12px;
+  opacity: 0.8;
 }
 
 
 .navtoggle li:not(:last-child) {
   display: none;
-}
-
-.navtoggle, .navtoggle.responsive {
-  position: relative;
 }
 
 .navtoggle li .icon {
@@ -339,6 +333,10 @@ nav > ul > li a:active {
 .navtoggle li .icon:hover,
 .navtoggle li .icon:active {
     opacity: 1;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
 }
 
 .navtoggle.responsive nav {
