@@ -213,12 +213,11 @@ main {
   background-color: #740d0d;
   color: #f9f9f9;
   font-weight: 400;
-  padding: 10px;
+  padding: 12px 20px 12px 20px;
   border-radius: 3px;
   border-bottom: 2px solid #800000;
-  transition: 0.2s opacity;
+  transition: 0.4s opacity;
   border-radius: 16px;
-  padding: 12px 20px 12px 20px;
 }
 .button:hover {
   opacity: 0.8;
@@ -334,7 +333,6 @@ nav > ul > li a:active {
   color: #00283F;
   padding: 0 8px;
 }
-
 .navtoggle.responsive nav {
   padding: 24px 0 0;
 }
@@ -407,7 +405,7 @@ box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.2)  ;
 }
 
 #contact p {
-  color: #ceced3;
+  color: #f8f8f8;
 }
 
 #contact .copyright {
