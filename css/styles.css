@@ -290,20 +290,31 @@ nav > ul > li {
 }
 
 nav > ul > li > a {
-  padding: 0 15px;
+  padding: 10px;
+  margin: 10px;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 700;
-  color: #fefefe;
+  color: #f8f8f8;
+  transition: 0.6s opacity;
 }
 
 nav > ul > li > a:visited {
-color: #fefefe;
+  padding: 10px;
+  margin: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  color: #f8f8f8;
+  transition: 0.6s opacity;
 }
 
 nav > ul > li a:hover,
-nav > ul > li a:focus {
-  color: #BDBDBD;
+nav > ul > li a:active {
+  background-color: #f8f8f8;
+  color: #800000;
+  font-weight: 700;
+  border-radius: 12px
 }
 
 
@@ -318,14 +329,10 @@ nav > ul > li a:focus {
 .navtoggle li .icon {
   position: absolute;
   right: 0;
-  top: 30px;
+  top: 15px;
   font-size: 30px;
   color: #00283F;
-  padding-right: 0;
-}
-
-.navtoggle.responsive li  {
-  display: block;
+  padding: 0 8px;
 }
 
 .navtoggle.responsive nav {
