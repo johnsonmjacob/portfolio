@@ -288,26 +288,34 @@ nav > ul > li {
   display: inline-block;
 }
 
-nav > ul > li > a,
-nav > ul > li > a:visited {
-  padding: 8px;
-  margin: 8px;
+nav > ul > li > a {
+  padding: 10px;
+  margin: 10px;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 700;
-  color: #fefefe;
-  transition: 0.5s opacity;
+  color: #f8f8f8;
+  transition: 0.6s opacity;
 }
 
-nav > ul > li > a:hover,
-nav > ul > li > a:focus {
+nav > ul > li > a:visited {
+  padding: 10px;
+  margin: 10px;
+  text-transform: uppercase;
   text-decoration: none;
+  font-weight: 700;
+  color: #f8f8f8;
+  transition: 0.6s opacity;
+}
+
+nav > ul > li a:hover,
+nav > ul > li a:active {
   background-color: #f8f8f8;
   color: #800000;
-  border: 2px solid #800000;
-  border-radius: 12px;
-  opacity: 0.9;
+  font-weight: 700;
+  border-radius: 12px
 }
+
 
 .navtoggle li:not(:last-child) {
   display: none;
@@ -320,13 +328,10 @@ nav > ul > li > a:focus {
 .navtoggle li .icon {
   position: absolute;
   right: 0;
-  top: 30px;
+  top: 15px;
   font-size: 30px;
-  padding: 0;
-}
-
-.navtoggle.responsive li  {
-  display: block;
+  color: #00283F;
+  padding: 0 8px;
 }
 
 .navtoggle.responsive nav {
