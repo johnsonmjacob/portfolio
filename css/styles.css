@@ -330,9 +330,17 @@ nav > ul > li a:active {
   right: 0;
   top: 15px;
   font-size: 30px;
-  color: #00283F;
+  background-color: #f8f8f8;
+  color: #800000;
   padding: 0 8px;
+  margin: 10px 0 0;
 }
+
+.navtoggle li .icon:hover,
+.navtoggle li .icon:active {
+    opacity: 1;
+}
+
 .navtoggle.responsive nav {
   padding: 24px 0 0;
 }
