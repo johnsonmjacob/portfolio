@@ -26,8 +26,7 @@ header {
   width: 100%;
   top: 0;
   /*start ------------*/
-background: #006191; 
-border: solid #BDBDBD 1px; 
+background: #006191;  
 box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.2)  ; 
 -webkit-box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.2)  ; 
 -moz-box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.2)  ; 
@@ -117,10 +116,11 @@ img {
 }
 
 .logo {
-  max-width: 125px;
-  margin-top: 5px;
+  max-width: 75px;
+  margin-top: 15px;
   margin-left: 5px;
   margin-bottom: 5px;
+  padding: 5px;
 }
 
 .clear:after {
@@ -311,7 +311,7 @@ nav > ul > li a:active {
   color: #800000;
   font-weight: 700;
   border-radius: 12px;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 
@@ -322,12 +322,12 @@ nav > ul > li a:active {
 .navtoggle li .icon {
   position: absolute;
   right: 0;
-  top: 15px;
-  font-size: 30px;
+  top: 20px;
+  font-size: 24px;
   background-color: #f8f8f8;
   color: #800000;
   padding: 0 8px;
-  margin: 10px 0 0;
+  margin: 10px 0 0 10px;
 }
 
 .navtoggle li .icon:hover,
@@ -358,7 +358,7 @@ nav > ul > li a:active {
     display: inline-block;
     width: auto;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 25px;
         /*start ------------*/
 background: #f8f8f8; 
 border: solid #BDBDBD 1px; 
@@ -387,15 +387,18 @@ box-shadow: -1px 1px 11px rgba(0, 0, 0, 0.2)  ;
 }
 
 #project-title{
-  margin-top: 120px;
+  margin-top: 80px;
   padding: 10px;
 }
 
 #about-title {
-  margin-top: 120px;
-  padding-top: 10px;
-  padding-bottom: 25px;
-  margin-bottom: -75px;
+  margin-top: 80px;
+  padding: 10px 0 0 10px;
+}
+
+#about-title h2 {
+  margin-bottom: 10
+  px;
 }
 
 #contact {
