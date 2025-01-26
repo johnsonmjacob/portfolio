@@ -309,6 +309,7 @@ nav > ul > li a:hover,
 nav > ul > li a:active {
   background-color: #f8f8f8;
   color: #800000;
+  text-decoration: none;
   font-weight: 700;
   border-radius: 12px;
   opacity: 0.9;
